@@ -537,6 +537,15 @@ nav .movement-btn{
 .socialmedia-links{
     display: flex;
 }
+.socialmedia-links ul li i{
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+    transform: 0.2s;
+}
+.socialmedia-links ul li i:hover{
+    background-color: rgba(224, 221, 221, 0.825);
+}
 .column4{
     display: flex;
     gap: 10px;
