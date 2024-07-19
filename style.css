@@ -12,8 +12,8 @@ body{
     position: relative;
     display: grid;
     gap: 5px;
-    grid-template-columns: 323px 80vw;
-    grid-template-rows: 149px 480px;
+    grid-template-columns: 323px 78vw;
+    grid-template-rows: 149px 483px;
     overflow-x: hidden;
     overflow-y: hidden;
 }
