@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Clone interface </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="assets/Spotify_icon.webp">
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com.js"></script>
+</head>
+<body>
+    </div>
+    <div class="container">
+        <div class="item sidebar-upperbox">
+            <div class="logo">
+                <span><i class="fa-brands fa-spotify fa-beat fa-lg" style="color: #fdfdfd;"></i></span>
+                <span>Spotify</span>
+            </div>
+                <ul>
+                    <li><a href="http://127.0.0.1:3000/index.html">
+                        <span><i class="fa-solid fa-house fa-lg" style="color: #f9f9f9;"></i></span>
+                        <span>Home</span>
+                    </a></li>
+                    <li><a href="https://open.spotify.com/search">
+                        <span><i class="fa-solid fa-magnifying-glass fa-lg" style="color: #fefefe;"></i></span>
+                        <span>Search</span>
+        
+                    </a></li>
+                </ul>
+        </div>
+        <div class="item sidebar-lowerbox">
+            <ul>
+                <li><span><i class="fa-solid fa-book"></i></span>
+                <span class="Library">Your Library </span>
+                <span class="plus-sign"><i class="fa-solid fa-plus" style="color: #fefefe;"></i></span></li>
+                <div class="sidebar-scroll">
+                    <div class="create-playlist">
+                        <h4>Create your first playlist </h4>
+                        <p>It's easy we'll help you</p>
+                        <button>Create playlist</button>
+                    </div>
+                     <div class="create-playlist">
+                        <h4> Let's find some podcast to follow </h4>
+                        <p>We'll keep you updated on new podcasts</p>
+                        <button>Browse Podcasts</button>
+                    </div> 
+                </div>
+            </ul>
+            <div class="privacy">
+                <ul>
+                    <li>
+                        
+                        <a href="">Legal</a>
+                        <a href="">Safety & privacy</a>
+                        <a href="">Privacy Policy</a>
+                    </li>
+                    <li>
+                    <a href="">Cookies</a>
+                    <a href="">About Ads</a>
+                    <a href="">Accessibility</a></br>
+                    </li>
+                    <li>
+                        <a href="">Cookies</a>
+                    </li> 
+                    <li><button class="language"><span class="globe"><i class="fa-solid fa-globe fa-lg" style="color: #ffffff;"></i></span>English</button></li>
+                </ul>
+               
+                
+            </div>
+            <div class="music-player">
+                <div class="progress-bar">
+                    <input type="range" id="myProgressbar" min="0" max="100">
+                </div>
+                <div class="control-btn">
+                    <button class="backward-btn"><i class="fa-solid fa-backward" style="color: #878787;"></i></button>
+                    <i class="fa-sharp fa-solid fa-play" style="color: #8a8a8a;" id="masterPlay"></i>
+                    <button class="forward-btn"><i class="fa-solid fa-forward" style="color: #8a8a8a;"></i></button>
+                </div>
+                
+        
+            </div>
+        </div>
+        <div class="item main-content">
+            <div class="topbar">
+                <div class="movement-btn">
+                    <button class="backward"><i class="fa-solid fa-chevron-left" style="color: #ffffff;"></i></button>
+                    <button class="forward"><i class="fa-solid fa-chevron-right" style="color: #ffffff;"></i></button>
+                </div>
+                <div class="right-btn">
+                    <button class="sign-btn">Sign up</button>
+                    <button class="login-btn">Log in</button>
+                    
+            </div>
+        </div>
+            <div class="trending-songs">
+                <h2>Recommended for today</h2>
+                <div class="songs-list">
+                    <div class="item song1">
+                        <img src="assets/those eyes.webp" alt="song those eyes"  >
+                        <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                        <h3>Those eyes </h3><p>New West</p>
+                    </div>
+                    <div class="item song2"><img src="assets/houdini.webp" alt="song those eyes"  >
+                        <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                        <h3>Houdini</h3><p>Eminem</p></div>
+                    <div class="item song3"><img src="assets/mvp.webp" alt="song those eyes" >
+                        <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                        <h3>Mvp</h3><p>Shubh</p></div>
+                    <div class="item song4"><img src="assets/Suniyan-Suniyan.webp" alt="song those eyes" >
+                        <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                        <h3>Suniyan-Suniyan</h3><p>Mix-punjabi</p></div>
+                    <div class="item song5"><img src="assets/inthe stars.webp" alt="song those eyes" >
+                        <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                        <h3>In The Stars</h3><p>benson</p></div>
+                    <div class="item song6"><img src="assets/in da club.webp" alt="song those eyes ">
+                        <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                        <h3>In da club</h3><p>50 Cents</p></div>
+                    <div class="item song7"><img src="assets/when i grow up.webp" alt="song those eyes ">
+                        <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                        <h3>When i grow up</h3><p>Wiz khalifa</p></div>
+                </div>
+                <div class="trending-songs">
+                    <h2>Top mixes for this week</h2>
+                    <div class="songs-list">
+                        <div class="item song1">
+                            <img src="assets/item1.jpg" alt="song those eyes"  >
+                            <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                            <h3>Jazz Mix</h3><p>Taking it back to the 90's </p>
+                        </div>
+                        <div class="item song2"><img src="assets/item2.jpg" alt="song those eyes"  >
+                            <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                            <h3>Pop Mix</h3><p>With Imran Khan, Badshah, Mika Singh and more</p></div>
+                        <div class="item song3"><img src="assets/item-3.jpg" alt="song those eyes" >
+                            <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                            <h3>Chillout Mix</h3><p>The most essential R&B songs from the '00s. Cover: Usher</p></div>
+                        <div class="item song4"><img src="assets/item4.jpg" alt="song those eyes" >
+                            <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                            <h3>Romantic Mix</h3><p>With Ali Zafar, Rahat Fateh Ali Khan, Asim Azhar and more
+                            </p></div>
+                        <div class="item song5"><img src="assets/item-5.jpg" alt="song those eyes" >
+                            <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                            <h3>Lofi beats Mix</h3><p>benson</p></div>
+                        <div class="item song6"><img src="assets/item-6.png" alt="song those eyes ">
+                            <span class="play-btn"><i class="fa-sharp fa-solid fa-play" style="color: #000000;"></i></span>
+                            <h3>Accoustic</h3><p>Big hits from the world of acoustics.</p>
+                        </div>
+                    </div>
+                    
+                <footer>
+                    <div class="footer-column">
+                        <div class="column-list">
+                            <div class="company">Company</div>
+                            <ul class="column1">
+                                <li><a href="">About</a></li>
+                                <li><a href="">Jobs</a></li>
+                                <li><a href="">For the Record</a></li>
+                            </ul>
+                        </div>
+                        <div class="column-list">
+                            <div class="company">Communities</div>
+                            <ul class="column2">
+                                <li><a href="">For Artists</a></li>
+                                <li><a href="">Developers</a></li>
+                                <li><a href="">Advertising</a></li>
+                                <li><a href="">Investors</a></li>
+                                <li><a href="">Vendors</a></li>
+                            </ul>
+                        </div>
+                        <div class="column-list">
+                            <div class="company">Useful links</div>
+                            <ul class="column3">
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Free Mobile Links</a></li>
+                            </ul>
+                        </div>
+                        <div class="column-list">
+                            <div class="company">Spotify Plans</div>
+                            <ul class="column2">
+                                <li><a href="">Premium Individual</a></li>
+                                <li><a href="">Premium Duo</a></li>
+                                <li><a href="">Premium Family</a></li>
+                                <li><a href="">Premium Student</a></li>
+                                <li><a href="">Spotify Free</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-section">
+                            <div class="socialmedia-links">
+                                <ul class="column4">
+                                    <li><a href=""><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a></li>
+                                    <li><a href=""></a><i class="fa-brands fa-twitter" style="color: #fefefe;"></i></li>
+                                    <li><a href=""></a><i class="fa-brands fa-facebook" style="color: #ffffff;"></i></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="copyright">
+                        <p>2024 Spotify Tanmay bakshi </p>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </div>
+    <div class="signup-bar">
+        <div class="note">
+            <h4>Preview of Spotify</h4>
+            <p>Signup to get unlimited songs and podcasts
+            </p>
+        </div>
+        <div class="signupfree"><button id="freesignup">Sign up free</button></div>
+    </div>
+</body>
+</html>
