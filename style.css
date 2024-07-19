@@ -14,7 +14,6 @@ body{
     gap: 5px;
     grid-template-columns: 323px 85vw;
     grid-template-rows: 149px 475px;
-    overflow-x: hidden;
     overflow-y: hidden;
 }
 .container:hover::-webkit-scrollbar-{
