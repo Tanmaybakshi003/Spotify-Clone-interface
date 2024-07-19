@@ -12,9 +12,9 @@ body{
     position: relative;
     display: grid;
     gap: 5px;
-    grid-template-columns: 323px 90vw;
+    grid-template-columns: 323px 86vw;
     grid-template-rows: 149px 480px;
-    overflow-x: auto;
+    overflow-x: hidden;
     overflow-y: hidden;
 }
 .container:hover::-webkit-scrollbar-{
